@@ -1,3 +1,5 @@
+
+
 import { createClient } from "microcms-js-sdk";
 import type {
   MicroCMSQueries,
