@@ -31,7 +31,7 @@ export default function Pagination({
             </Link> */}
             {current !== p ? (
             // <Link href={`/news/p/${p}`} className={styles.item}>
-            <Link href={`${basePath}/p/${p}`} className={styles.item}>
+            <Link href={`${basePath}/p/${p}`} className={styles.item}> 
                 {p}
             </Link>
             ) : (
